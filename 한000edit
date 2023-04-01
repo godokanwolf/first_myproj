@@ -1,0 +1,693 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  ClientHeight = 148
+  ClientWidth = 335
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = '微软雅黑'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  DesignSize = (
+    335
+    148)
+  PixelsPerInch = 96
+  TextHeight = 19
+  object PageControl1: TPageControl
+    Left = 8
+    Top = 266
+    Width = 633
+    Height = 401
+    ActivePage = TabSheet9
+    TabOrder = 0
+    Visible = False
+    object TabSheet1: TTabSheet
+      Caption = 'C'
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      object MemoC: TMemo
+        Tag = -1
+        Left = 0
+        Top = 0
+        Width = 625
+        Height = 367
+        Align = alClient
+        Lines.Strings = (
+          'Windows Registry Editor Version 5.00'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com]'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com\JAPANESE]'
+          '"Home"="C:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          '[HKEY_CURRENT_USER\Software\HanGame.Com]'
+          ''
+          '[HKEY_CURRENT_USER\Software\HanGame.Com\JAPANESE]'
+          '"DefaultHomeSet"="1"'
+          '"Home"="C:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          
+            '[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uni' +
+            'nstall\Hangame.com]'
+          '"DisplayName"="Hangame"'
+          '"DisplayIcon"="C:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          '"UninstallString"="C:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com]'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com\JAPANESE]'
+          '"Home"="C:\\Hangame\\JAPANESE"'
+          '"NVersion"="20.50"'
+          '"Version"="20.50"'
+          ''
+          
+            '[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\services\SharedAccess\P' +
+            'arameters\FirewallPolicy\FirewallRules]'
+          
+            '"{5E6B46C3-D7CE-4E3D-A8AE-6EF4E8E1003D}"="v2.10|Action=Block|Act' +
+            'ive=TRUE|Dir=Out|LA4=113.0.0.0-113.255.255.255|Name=Windows Medi' +
+            'a|"'
+          ''
+          ''
+          ''
+          ''
+          ''
+          '')
+        ScrollBars = ssBoth
+        TabOrder = 0
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'D'
+      ImageIndex = 1
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      object MemoD: TMemo
+        Tag = -1
+        Left = 0
+        Top = 0
+        Width = 625
+        Height = 367
+        Align = alClient
+        Lines.Strings = (
+          'Windows Registry Editor Version 5.00'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com]'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com\JAPANESE]'
+          '"Home"="D:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          '[HKEY_CURRENT_USER\Software\HanGame.Com]'
+          ''
+          '[HKEY_CURRENT_USER\Software\HanGame.Com\JAPANESE]'
+          '"DefaultHomeSet"="1"'
+          '"Home"="D:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          
+            '[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uni' +
+            'nstall\Hangame.com]'
+          '"DisplayName"="Hangame"'
+          '"DisplayIcon"="D:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          '"UninstallString"="D:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com]'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com\JAPANESE]'
+          '"Home"="D:\\Hangame\\JAPANESE"'
+          '"NVersion"="20.50"'
+          '"Version"="20.50"'
+          
+            '[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\services\SharedAccess\P' +
+            'arameters\FirewallPolicy\FirewallRules]'
+          
+            '"{5E6B46C3-D7CE-4E3D-A8AE-6EF4E8E1003D}"="v2.10|Action=Block|Act' +
+            'ive=TRUE|Dir=Out|LA4=113.0.0.0-113.255.255.255|Name=Windows Medi' +
+            'a|"'
+          ''
+          ''
+          ''
+          '')
+        ScrollBars = ssBoth
+        TabOrder = 0
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = 'E'
+      ImageIndex = 2
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      object MemoE: TMemo
+        Tag = -1
+        Left = 0
+        Top = 0
+        Width = 625
+        Height = 367
+        Align = alClient
+        Lines.Strings = (
+          'Windows Registry Editor Version 5.00'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com]'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com\JAPANESE]'
+          '"Home"="E:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          '[HKEY_CURRENT_USER\Software\HanGame.Com]'
+          ''
+          '[HKEY_CURRENT_USER\Software\HanGame.Com\JAPANESE]'
+          '"DefaultHomeSet"="1"'
+          '"Home"="E:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          
+            '[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uni' +
+            'nstall\Hangame.com]'
+          '"DisplayName"="Hangame"'
+          '"DisplayIcon"="E:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          '"UninstallString"="E:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com]'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com\JAPANESE]'
+          '"Home"="E:\\Hangame\\JAPANESE"'
+          '"NVersion"="20.50"'
+          '"Version"="20.50"'
+          
+            '[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\services\SharedAccess\P' +
+            'arameters\FirewallPolicy\FirewallRules]'
+          
+            '"{5E6B46C3-D7CE-4E3D-A8AE-6EF4E8E1003D}"="v2.10|Action=Block|Act' +
+            'ive=TRUE|Dir=Out|LA4=113.0.0.0-113.255.255.255|Name=Windows Medi' +
+            'a|"'
+          ''
+          ''
+          ''
+          '')
+        ScrollBars = ssBoth
+        TabOrder = 0
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'F'
+      ImageIndex = 3
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      object MemoF: TMemo
+        Tag = -1
+        Left = 0
+        Top = 0
+        Width = 625
+        Height = 367
+        Align = alClient
+        Lines.Strings = (
+          'Windows Registry Editor Version 5.00'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com]'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com\JAPANESE]'
+          '"Home"="F:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          '[HKEY_CURRENT_USER\Software\HanGame.Com]'
+          ''
+          '[HKEY_CURRENT_USER\Software\HanGame.Com\JAPANESE]'
+          '"DefaultHomeSet"="1"'
+          '"Home"="F:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          
+            '[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uni' +
+            'nstall\Hangame.com]'
+          '"DisplayName"="Hangame"'
+          '"DisplayIcon"="F:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          '"UninstallString"="F:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com]'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com\JAPANESE]'
+          '"Home"="F:\\Hangame\\JAPANESE"'
+          '"NVersion"="20.50"'
+          '"Version"="20.50"'
+          
+            '[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\services\SharedAccess\P' +
+            'arameters\FirewallPolicy\FirewallRules]'
+          
+            '"{5E6B46C3-D7CE-4E3D-A8AE-6EF4E8E1003D}"="v2.10|Action=Block|Act' +
+            'ive=TRUE|Dir=Out|LA4=113.0.0.0-113.255.255.255|Name=Windows Medi' +
+            'a|"'
+          ''
+          ''
+          ''
+          '')
+        ScrollBars = ssBoth
+        TabOrder = 0
+      end
+    end
+    object TabSheet5: TTabSheet
+      Caption = 'Y'
+      ImageIndex = 4
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      object MemoY: TMemo
+        Tag = -1
+        Left = 0
+        Top = 0
+        Width = 625
+        Height = 367
+        Align = alClient
+        Lines.Strings = (
+          'Windows Registry Editor Version 5.00'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com]'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com\JAPANESE]'
+          '"Home"="Y:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          '[HKEY_CURRENT_USER\Software\HanGame.Com]'
+          ''
+          '[HKEY_CURRENT_USER\Software\HanGame.Com\JAPANESE]'
+          '"DefaultHomeSet"="1"'
+          '"Home"="Y:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          
+            '[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uni' +
+            'nstall\Hangame.com]'
+          '"DisplayName"="Hangame"'
+          '"DisplayIcon"="Y:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          '"UninstallString"="Y:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com]'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com\JAPANESE]'
+          '"Home"="Y:\\Hangame\\JAPANESE"'
+          '"NVersion"="20.50"'
+          '"Version"="20.50"'
+          
+            '[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\services\SharedAccess\P' +
+            'arameters\FirewallPolicy\FirewallRules]'
+          
+            '"{5E6B46C3-D7CE-4E3D-A8AE-6EF4E8E1003D}"="v2.10|Action=Block|Act' +
+            'ive=TRUE|Dir=Out|LA4=113.0.0.0-113.255.255.255|Name=Windows Medi' +
+            'a|"'
+          ''
+          ''
+          ''
+          ''
+          '')
+        ScrollBars = ssBoth
+        TabOrder = 0
+      end
+    end
+    object TabSheet6: TTabSheet
+      Caption = 'H'
+      ImageIndex = 5
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      object MemoH: TMemo
+        Tag = -1
+        Left = 0
+        Top = 0
+        Width = 625
+        Height = 367
+        Align = alClient
+        Lines.Strings = (
+          'Windows Registry Editor Version 5.00'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com]'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com\JAPANESE]'
+          '"Home"="H:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          '[HKEY_CURRENT_USER\Software\HanGame.Com]'
+          ''
+          '[HKEY_CURRENT_USER\Software\HanGame.Com\JAPANESE]'
+          '"DefaultHomeSet"="1"'
+          '"Home"="H:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          
+            '[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uni' +
+            'nstall\Hangame.com]'
+          '"DisplayName"="Hangame"'
+          '"DisplayIcon"="H:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          '"UninstallString"="H:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com]'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com\JAPANESE]'
+          '"Home"="H:\\Hangame\\JAPANESE"'
+          '"NVersion"="20.50"'
+          '"Version"="20.50"'
+          
+            '[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\services\SharedAccess\P' +
+            'arameters\FirewallPolicy\FirewallRules]'
+          
+            '"{5E6B46C3-D7CE-4E3D-A8AE-6EF4E8E1003D}"="v2.10|Action=Block|Act' +
+            'ive=TRUE|Dir=Out|LA4=113.0.0.0-113.255.255.255|Name=Windows Medi' +
+            'a|"'
+          ''
+          ''
+          ''
+          ''
+          '')
+        ScrollBars = ssBoth
+        TabOrder = 0
+      end
+    end
+    object TabSheet7: TTabSheet
+      Caption = 'G'
+      ImageIndex = 6
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      object MemoG: TMemo
+        Tag = -1
+        Left = 0
+        Top = 0
+        Width = 625
+        Height = 367
+        Align = alClient
+        Lines.Strings = (
+          'Windows Registry Editor Version 5.00'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com]'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com\JAPANESE]'
+          '"Home"="G:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          '[HKEY_CURRENT_USER\Software\HanGame.Com]'
+          ''
+          '[HKEY_CURRENT_USER\Software\HanGame.Com\JAPANESE]'
+          '"DefaultHomeSet"="1"'
+          '"Home"="G:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          
+            '[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uni' +
+            'nstall\Hangame.com]'
+          '"DisplayName"="Hangame"'
+          '"DisplayIcon"="G:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          '"UninstallString"="G:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com]'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com\JAPANESE]'
+          '"Home"="G:\\Hangame\\JAPANESE"'
+          '"NVersion"="20.50"'
+          '"Version"="20.50"'
+          
+            '[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\services\SharedAccess\P' +
+            'arameters\FirewallPolicy\FirewallRules]'
+          
+            '"{5E6B46C3-D7CE-4E3D-A8AE-6EF4E8E1003D}"="v2.10|Action=Block|Act' +
+            'ive=TRUE|Dir=Out|LA4=113.0.0.0-113.255.255.255|Name=Windows Medi' +
+            'a|"'
+          ''
+          ''
+          ''
+          '')
+        ScrollBars = ssBoth
+        TabOrder = 0
+      end
+    end
+    object TabSheet8: TTabSheet
+      Caption = 'Z'
+      ImageIndex = 7
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
+      object MemoZ: TMemo
+        Tag = -1
+        Left = 0
+        Top = 0
+        Width = 625
+        Height = 367
+        Align = alClient
+        Lines.Strings = (
+          'Windows Registry Editor Version 5.00'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com]'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com\JAPANESE]'
+          '"Home"="Z:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          '[HKEY_CURRENT_USER\Software\HanGame.Com]'
+          ''
+          '[HKEY_CURRENT_USER\Software\HanGame.Com\JAPANESE]'
+          '"DefaultHomeSet"="1"'
+          '"Home"="Z:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          
+            '[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uni' +
+            'nstall\Hangame.com]'
+          '"DisplayName"="Hangame"'
+          '"DisplayIcon"="Z:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          '"UninstallString"="Z:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com]'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com\JAPANESE]'
+          '"Home"="Z:\\Hangame\\JAPANESE"'
+          '"NVersion"="20.50"'
+          '"Version"="20.50"'
+          
+            '[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\services\SharedAccess\P' +
+            'arameters\FirewallPolicy\FirewallRules]'
+          
+            '"{5E6B46C3-D7CE-4E3D-A8AE-6EF4E8E1003D}"="v2.10|Action=Block|Act' +
+            'ive=TRUE|Dir=Out|LA4=113.0.0.0-113.255.255.255|Name=Windows Medi' +
+            'a|"'
+          ''
+          ''
+          ''
+          '')
+        ScrollBars = ssBoth
+        TabOrder = 0
+      end
+    end
+    object TabSheet9: TTabSheet
+      Caption = 'K'
+      ImageIndex = 8
+      object MemoK: TMemo
+        Tag = -1
+        Left = 0
+        Top = 0
+        Width = 625
+        Height = 367
+        Align = alClient
+        Lines.Strings = (
+          'Windows Registry Editor Version 5.00'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com]'
+          ''
+          
+            '[HKEY_CURRENT_USER\Software\Classes\VirtualStore\MACHINE\SOFTWAR' +
+            'E\Wow6432Node\HanGame.Com\JAPANESE]'
+          '"Home"="K:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          '[HKEY_CURRENT_USER\Software\HanGame.Com]'
+          ''
+          '[HKEY_CURRENT_USER\Software\HanGame.Com\JAPANESE]'
+          '"DefaultHomeSet"="1"'
+          '"Home"="K:\\Hangame\\JAPANESE"'
+          '"NVersion"="54.50"'
+          '"Version"="54.50"'
+          
+            '[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uni' +
+            'nstall\Hangame.com]'
+          '"DisplayName"="Hangame"'
+          '"DisplayIcon"="K:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          '"UninstallString"="K:\\Hangame\\JAPANESE\\HanUninstallJp.exe"'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com]'
+          ''
+          '[HKEY_LOCAL_MACHINE\SOFTWARE\HanGame.Com\JAPANESE]'
+          '"Home"="K:\\Hangame\\JAPANESE"'
+          '"NVersion"="20.50"'
+          '"Version"="20.50"'
+          
+            '[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\services\SharedAccess\P' +
+            'arameters\FirewallPolicy\FirewallRules]'
+          
+            '"{5E6B46C3-D7CE-4E3D-A8AE-6EF4E8E1003D}"="v2.10|Action=Block|Act' +
+            'ive=TRUE|Dir=Out|LA4=113.0.0.0-113.255.255.255|Name=Windows Medi' +
+            'a|"'
+          ''
+          ''
+          ''
+          '')
+        ScrollBars = ssBoth
+        TabOrder = 0
+      end
+    end
+  end
+  object RadioGroup1: TRadioGroup
+    Left = 8
+    Top = 8
+    Width = 319
+    Height = 132
+    Anchors = [akLeft, akTop, akRight, akBottom]
+    Caption = '선택'
+    TabOrder = 1
+  end
+  object RadioButtonC: TRadioButton
+    Left = 32
+    Top = 32
+    Width = 41
+    Height = 17
+    Caption = 'C'
+    TabOrder = 2
+  end
+  object RadioButtonD: TRadioButton
+    Left = 96
+    Top = 32
+    Width = 41
+    Height = 17
+    Caption = 'D'
+    TabOrder = 3
+  end
+  object RadioButtonE: TRadioButton
+    Left = 160
+    Top = 32
+    Width = 41
+    Height = 17
+    Caption = 'E'
+    TabOrder = 4
+  end
+  object RadioButtonF: TRadioButton
+    Left = 224
+    Top = 32
+    Width = 41
+    Height = 17
+    Caption = 'F'
+    TabOrder = 5
+  end
+  object RadioButtonG: TRadioButton
+    Left = 280
+    Top = 32
+    Width = 41
+    Height = 17
+    Caption = 'G'
+    TabOrder = 6
+  end
+  object RadioButtonH: TRadioButton
+    Left = 32
+    Top = 59
+    Width = 41
+    Height = 17
+    Caption = 'H'
+    TabOrder = 7
+  end
+  object RadioButtonY: TRadioButton
+    Left = 160
+    Top = 59
+    Width = 41
+    Height = 17
+    Caption = 'Y'
+    TabOrder = 8
+  end
+  object RadioButtonZ: TRadioButton
+    Left = 224
+    Top = 59
+    Width = 41
+    Height = 17
+    Caption = 'Z'
+    TabOrder = 9
+  end
+  object RadioButtonK: TRadioButton
+    Left = 96
+    Top = 59
+    Width = 41
+    Height = 17
+    Caption = 'K'
+    TabOrder = 10
+  end
+  object Button1: TButton
+    Left = 136
+    Top = 104
+    Width = 75
+    Height = 25
+    Caption = '확인'
+    TabOrder = 11
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 224
+    Top = 104
+    Width = 75
+    Height = 25
+    Caption = '취소'
+    TabOrder = 12
+    OnClick = Button2Click
+  end
+  object TimerStart: TTimer
+    Enabled = False
+    OnTimer = TimerStartTimer
+    Left = 368
+    Top = 32
+  end
+end

@@ -1,0 +1,100 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\HanGame.Com]
+
+[HKEY_CURRENT_USER\SOFTWARE\HanGame.Com\JAPANESE]
+"DefaultHomeSet"="1"
+"Home"="D:\\Hange\\JAPANESE"
+"NVersion"="85.30"
+"Version"="85.30"
+
+[HKEY_CURRENT_USER\SOFTWARE\HanGame.Com\JAPANESE\FCVR]
+
+[HKEY_CURRENT_USER\SOFTWARE\HanGame.Com\JAPANESE\PCEX]
+"Name"="僷僠儞僐"
+"Version"="85.30"
+"shortcut"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Hangame.com]
+"DisplayName"="Hange"
+"DisplayIcon"="D:\\Hange\\JAPANESE\\HanUninstallJp.exe"
+"UninstallString"="D:\\Hange\\JAPANESE\\HanUninstallJp.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\hangamec\Shell\Open\Command]
+@="C:\\Hange\\GameStarter\\HgGameStarterC.exe %1"
+
+[HKEY_USERS\S-1-5-21-2110590224-2331411456-1705221754-1001\SOFTWARE\Classes\VirtualStore\MACHINE\SOFTWARE\WOW6432Node\HanGame.Com]
+
+[HKEY_USERS\S-1-5-21-2110590224-2331411456-1705221754-1001\SOFTWARE\Classes\VirtualStore\MACHINE\SOFTWARE\WOW6432Node\HanGame.Com\JAPANESE]
+"Home"="D:\\Hange\\JAPANESE"
+"NVersion"="85.30"
+"Version"="85.30"
+
+[HKEY_USERS\S-1-5-21-2110590224-2331411456-1705221754-1001\SOFTWARE\HanGame.Com]
+
+[HKEY_USERS\S-1-5-21-2110590224-2331411456-1705221754-1001\SOFTWARE\HanGame.Com\JAPANESE]
+"DefaultHomeSet"="1"
+"Home"="D:\\Hange\\JAPANESE"
+"NVersion"="85.30"
+"Version"="85.30"
+
+[HKEY_USERS\S-1-5-21-2110590224-2331411456-1705221754-1001\SOFTWARE\HanGame.Com\JAPANESE\FCVR]
+
+[HKEY_USERS\S-1-5-21-2110590224-2331411456-1705221754-1001\SOFTWARE\HanGame.Com\JAPANESE\PCEX]
+"Name"="僷僠儞僐"
+"Version"="85.30"
+"shortcut"=dword:00000001
+
+[HKEY_USERS\S-1-5-21-2110590224-2331411456-1705221754-1001\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Hangame.com]
+"DisplayName"="Hange"
+"DisplayIcon"="D:\\Hange\\JAPANESE\\HanUninstallJp.exe"
+"UninstallString"="D:\\Hange\\JAPANESE\\HanUninstallJp.exe"
+
+[HKEY_USERS\S-1-5-21-2110590224-2331411456-1705221754-1001_Classes\VirtualStore\MACHINE\SOFTWARE\WOW6432Node\HanGame.Com\JAPANESE]
+"Home"="D:\\Hange\\JAPANESE"
+"NVersion"="85.30"
+"Version"="85.30"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\avg_vpn_online_setup.exe]
+"debugger"=""
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\AVG UI.exe]
+"debugger"="rundll32.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\AVG SecureVPN.exe]
+"debugger"="rundll32.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\openvpn.exe]
+"debugger"="rundll32.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\VPNAuction2016.exe]
+"debugger"="rundll32.exe"
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\Vpn.exe]
+"debugger"="rundll32.exe"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\DisallowRun]
+"1"="vpn008.exe"
+"windows"="vpn22.exe"
+"2"="vpn.exe"
+"3"="TuneupUI.exe"
+"4"="openvpn.exe"
+"5"="CoolipClient.exe"
+"6"="HaiipClientMulti.exe"
+"7"="RED070.exe"
+"8"="VPNAuction2016.exe"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\SharedAccess\Parameters\FirewallPolicy\FirewallRules]
+"{849744FB-FE1E-4BEF-8557-F6E678072844}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=17|App=C:\\Program Files\\AVG\\TuneUp\\TuneupUI.exe|Name=AVG TuneUp UI (UDP-In)|Desc=Allow all incoming traffic to UI|EmbedCtxt=AVG UI|"
+"{BE9DDA06-6272-4015-975C-327CA7445370}"="v2.20|Action=Block|Active=TRUE|Dir=Out|App=%ProgramFiles%\\AVG\\Secure VPN\\OpenVPN\\openvpn.exe|Name=999999|"
+"{E97C4C30-FD7F-43FA-AAEB-8593F4DC2711}"="v2.22|Action=Block|Active=TRUE|Dir=Out|Protocol=6|App=C:\\Program Files\\AVG\\Secure VPN\\Vpn.exe|Name=Secure VPN UI (TCP-In)|Desc=Allow all incoming traffic to UI|EmbedCtxt=AVG UI|"
+"{A091997C-9D9B-40F3-81FA-FE4B92C1FC35}"="v2.22|Action=Block|Active=TRUE|Dir=Out|Protocol=17|App=C:\\Program Files\\AVG\\Secure VPN\\Vpn.exe|Name=Secure VPN UI (UDP-In)|Desc=Allow all incoming traffic to UI|EmbedCtxt=AVG UI|"
+"{B498616D-C19F-4D86-B66F-D512ED81BD2D}"="v2.30|Action=Block|Active=TRUE|Dir=In|App=%ProgramFiles%\\AVG\\Secure VPN\\OpenVPN\\openvpn.exe|Name=99009900|"
+"{11AEA02E-D0DF-47E3-9E30-F2239E5DFC53}"="v2.30|Action=Block|Active=TRUE|Dir=In|App=%ProgramFiles%\\AVG\\Secure VPN\\Vpn.exe|Name=88008800|"
+"{0616792F-651D-4DDF-ADAC-5DF15C6F637F}"="v2.30|Action=Block|Active=TRUE|Dir=Out|App=%ProgramFiles%\\AVG\\Secure VPN\\Vpn.exe|Name=88118811|"
+"{0A27A683-E1CA-4C61-BFCD-2B89410BBC4E}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=6|App=C:\\Program Files\\AVG\\Secure VPN\\Vpn.exe|Name=Secure VPN UI (TCP-In)|Desc=Allow all incoming traffic to UI|EmbedCtxt=AVG UI|"
+"{1A4CF9F7-734E-4CB1-8336-9BF0B4373848}"="v2.30|Action=Block|Active=TRUE|Dir=In|Protocol=17|App=C:\\Program Files\\AVG\\Secure VPN\\Vpn.exe|Name=Secure VPN UI (UDP-In)|Desc=Allow all incoming traffic to UI|EmbedCtxt=AVG UI|"
+"{89ACA2D4-F2E2-4006-924A-2A71990BD479}"="v2.22|Action=Block|Active=TRUE|Dir=In|Protocol=6|App=C:\\Program Files\\AVG\\Secure VPN\\Vpn.exe|Name=Secure VPN UI (TCP-In)|Desc=Allow all incoming traffic to UI|EmbedCtxt=AVG UI|"
+"{92D1E9FE-E177-46B3-ABD2-99F9FE03E825}"="v2.22|Action=Block|Active=TRUE|Dir=In|Protocol=17|App=C:\\Program Files\\AVG\\Secure VPN\\Vpn.exe|Name=Secure VPN UI (UDP-In)|Desc=Allow all incoming traffic to UI|EmbedCtxt=AVG UI|"
+"{98C39B89-57D5-4A2E-9513-08C49C606D6E}"="v2.22|Action=Block|Active=TRUE|Dir=Out|Protocol=6|App=C:\\Program Files\\AVG\\TuneUp\\TuneupUI.exe|Name=AVG TuneUp UI (TCP-In)|Desc=Allow all incoming traffic to UI|EmbedCtxt=AVG UI|"
+"{849744FB-FE1E-4BEF-8557-F6E678072844}"="v2.30|Action=Block|Active=TRUE|Dir=Out|Protocol=17|App=C:\\Program Files\\AVG\\TuneUp\\TuneupUI.exe|Name=AVG TuneUp UI (UDP-In)|Desc=Allow all incoming traffic to UI|EmbedCtxt=AVG UI|"
+"{BE9DDA06-6272-4015-975C-327CA7445370}"="v2.20|Action=Block|Active=TRUE|Dir=Out|App=%ProgramFiles%\\AVG\\Secure VPN\\OpenVPN\\openvpn.exe|Name=999999|"
+"{E97C4C30-FD7F-43FA-AAEB-8593F4DC2711}"="v2.22|Action=Block|Active=TRUE|Dir=Out|Protocol=6|App=C:\\Program Files\\AVG\\Secure VPN\\Vpn.exe|Name=Secure VPN UI (TCP-In)|Desc=Allow all incoming traffic to UI|EmbedCtxt=AVG UI|"
+"{A091997C-9D9B-40F3-81FA-FE4B92C1FC35}"="v2.22|Action=Block|Active=TRUE|Dir=Out|Protocol=17|App=C:\\Program Files\\AVG\\Secure VPN\\Vpn.exe|Name=Secure VPN UI (UDP-In)|Desc=Allow all incoming traffic to UI|EmbedCtxt=AVG UI|"
+
+
